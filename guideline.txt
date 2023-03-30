@@ -1,0 +1,27 @@
+git init
+
+git add Hello2.txt
+git add . → 모든 파일 커밋
+
+git commit -m "commit complete"
+
+$ git commit -m "commit complete"
+[master d3b9595] commit complete
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Hello2.txt
+
+-> 해당 결과가 떠야됨
+
+만약 On branch master
+nothing to commit, working tree clean
+이 뜰경우 폴더안에 숨겨진 폴더 찾아서 깃파일을 삭제 후 다시 시도
+
+git status
+
+git remote add origin https://github.com/shinho123/test01.git
+링크 제거 : git remote rm origin
+
+git push origin master
+만약 push 도중 Updates were rejected because the tip of your current branch is behind its remote 이런 오류가 발생할 수 있는데 이는 데이터의 유실때문에 뜨는 오류로
+git push origin +mater로 입력하면 해결됨
+
