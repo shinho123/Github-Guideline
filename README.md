@@ -70,8 +70,19 @@ cd test
 cat A.txt
 ```
 
-#### 2. Connect to a Remote Repo ↔ Git Repo(HTTPS Copy) e.g. "https://github.com/<git_name>/<repo_name>.git"
+#### 2. Git start & Add files to the staging area
 ```git
-git init
-gir add <file_name> or <.>
+git init # git start
+git add <file_name> or <.> # The . adds all files in the directory to the staging area.
 ```
+
+#### 3. files Commit
+```git
+git commit -m "<Any Message>"
+```
+confirm
+```git
+git status
+```
+
+Connect to a Remote Repo ↔ Git Repo(HTTPS Copy) e.g. "https://github.com/<git_name>/<repo_name>.git"
