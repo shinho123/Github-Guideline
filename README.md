@@ -100,8 +100,6 @@ Confirm
 ```git
 git remote -v
 ```
-![image](https://github.com/user-attachments/assets/6152d24a-6def-4066-8a97-ef6017b712d3)
-
 
 #### 5. Data Push
 ```git
