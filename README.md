@@ -10,28 +10,28 @@
 * Fetch(페치) : 원격 저장소의 변경 사항을 로컬 저장소로 가져오지만, 병합하지는 않는다.
 * Merge(병합) : 두 브랜치의 변경 사항을 하나로 통합한다. / 병합 커밋이 생성된다.
 * Rebase(리베이스) : 브랜치의 커밋을 다른 브랜치의 최신 커밋 위로 재배치한다. / 커밋 히스토리를 선형으로 유지한다.
-* Tag 
-* Remote Repository
-* Local Repository
-* Fork
-* Pull Request
-* Issue
-* Wiki
-* Actions
-* Release
-* Contributor
-* Collaborator
-* Commit Message
-* Changes
-* Staging
-* Staging Area
-* Working Directory
-* HEAD
-* Master Branch
-* Main Branch
-* Default Branch
-* README File
-* .gitignore File
+* Tag(태그) : 특정 커밋에 레이블을 붙인다. / 주로 릴리즈 버전을 표시하는 데 사용된다.
+* Remote Repository(원격 저장소) : 네트워크를 통해 접근할 수 있는 저장소이다. / GitHib와 같은 서비스에 호스팅된다.
+* Local Repository(로컬 저장소) : 사용자의 컴퓨터에 저장된 저장소이다.
+* Fork(포크) : 다른 사용자의 원격 저장소를 복제하여 자신의 원격 저장소로 만든다. / 주로 오픈 소스 프로젝트에 기여할 때 사용한다.
+* Pull Request(풀-리퀘스트) : 변경 사항을 원래 저장소에 병합해달라고 요청하는 기능이다. / 코드 리뷰와 협업에 사용된다.
+* Issue(이슈) : 버그, 기능 요청, 작업 항목 등을 추적하는 데 사용되는 타겟이다.
+* Wiki(위키) : 프로젝트와 관련된 문서를 작성하고 관리할 수 있는 공간이다.
+* Actions(액션) : GitHub에서 제공하는 CI/CD 도구이다. / 자동화된 빌드, 테스트, 배포 작업을 수행할 수 있다.
+* Release(릴리즈) : 소프트웨어의 특정 버전을 배포하는 기능이다. / 릴리즈 노트와 함께 배포 파일을 포함할 수 있다. 
+* Contributor(기여자) : 프로젝트에 기여한 사람이다. 코드, 문서, 이슈 등을 통해 기여할 수 있다.
+* Collaborator(협업자) : 저장소에 직접 접근하여 변경 사항을 추가할 수 있는 권한을 가진 사람이다.
+* Commit Message(커밋 메시지) : 커밋에 대한 설명을 제공하는 메시지이디ㅏ. / 변경 사항의 목적과 내용을 설명한다. 
+* Changes(변경 사항) : 파일의 추가, 수정, 삭제와 같은 변경 내용이다.
+* Staging(스테이징) : 커밋할 파일을 선택하는 과정이다. 'git add' 명령어를 사용하여 파일을 스테이징 영역에 추가한다.
+* Staging Area(스테이징 영역) : 커밋할 파일이 임시로 저장되는 영역이다. 인덱스라고도 불린다.
+* Working Directory(작업 디렉토리) : 현재 작업 중인 파일이 있는 디렉토리이다. 로컬 저장소의 파일이 위치한다.
+* HEAD : 현재 체크아웃된 브랜치나 커밋을 가리키는 포인터이다.
+* Master Branch(마스터 브랜치) : 기본 브랜치로, 주로 배포 가능한 안정된 코드를 포함한다. / 많은 프로젝트에서 'main' 브랜치로 대체되고 있다. 
+* Main Branch(메인 브랜치) : 기본 브랜치로, 주로 배포 가능한 안정된 코드를 포함한다. / 'master' 브랜치가 기본 브랜치로 설정된다.
+* Default Branch(기본 브랜치) : 저장소에서 기본으로 사용되는 브랜치이다. 주로 'main' 또는 'master' 브랜치가 기본 브랜치로 설정된다.
+* README File(리드미 파일) : 프로젝트에 대한 설명, 설치 방법, 사용 방법 등을 포함하는 파일이다. / 주로 'README.md' 형식으로 작성된다.
+* .gitignore File(.gitignore 파일) : Git이 추적하지 않을 파일이나 디렉토리를 지정하는 파일이다. / 주로 빌드 아티팩트나 개인 설정 파일을 제외하는 데 사용된다.
 
 ### Github Basic Commander
 
