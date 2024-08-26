@@ -63,3 +63,11 @@ mkdir test
 cd test
 echo "Hello. Welcome" > A.txt
 ```
+
+confirm
+```git
+cd test
+cat A.txt
+```
+
+
