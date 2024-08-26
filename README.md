@@ -61,7 +61,7 @@
 ```git
 mkdir test
 cd test
-echo "Hello. Welcome" > A.txt
+echo "Hello." > A.txt
 ```
 
 Confirm
@@ -69,6 +69,7 @@ Confirm
 cd test
 cat A.txt
 ```
+![image](https://github.com/user-attachments/assets/356e0b1a-7c31-4504-b84b-43987143a2a6)
 
 #### 2. Git start & Add files to the staging area
 ```git
@@ -80,9 +81,16 @@ git add <file_name> or <.> # The . adds all files in the directory to the stagin
 ```git
 git commit -m "<Any Message>"
 ```
+
+![image](https://github.com/user-attachments/assets/de950500-b4d9-4bcd-a8df-73bec1fbcea4)
+
+
 Confirm
 ```git
 git status
 ```
+
+![image](https://github.com/user-attachments/assets/e45ff73a-1198-48e0-ad35-f60403f7adcd)
+
 
 Connect to a Remote Repo ↔ Git Repo(HTTPS Copy) e.g. "https://github.com/<git_name>/<repo_name>.git"
