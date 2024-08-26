@@ -103,3 +103,14 @@ git remote -v
 ```
 ![image](https://github.com/user-attachments/assets/6152d24a-6def-4066-8a97-ef6017b712d3)
 
+
+#### 5. Data Push
+```git
+git push -u origin master
+```
+
+Error
+
+![image](https://github.com/user-attachments/assets/483558e9-9034-4ed1-b2a8-6dbc9bc7a96c)
+
+* 
