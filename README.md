@@ -57,7 +57,7 @@
 ### the step-by-step instructions for synchronizing data between Git and a local repository
 
 
-#### 1. Initialize a Local Repository
+#### 1. Initialize a Local Repository → 'test'
 ```git
 mkdir test
 cd test
@@ -70,4 +70,4 @@ cd test
 cat A.txt
 ```
 
-
+#### 2. Connect to a Remote Repo ↔ Git Repo(SSH Copy)
