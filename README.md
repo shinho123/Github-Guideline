@@ -90,7 +90,8 @@ Confirm
 git status
 ```
 
-![image](https://github.com/user-attachments/assets/e45ff73a-1198-48e0-ad35-f60403f7adcd)
+![image](https://github.com/user-attachments/assets/5c06f30a-2734-481f-84e1-eb91a0539b21)
+
 
 
 Connect to a Remote Repo ↔ Git Repo(HTTPS Copy) e.g. "https://github.com/<git_name>/<repo_name>.git"
