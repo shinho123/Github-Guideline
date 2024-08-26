@@ -64,7 +64,7 @@ cd test
 echo "Hello. Welcome" > A.txt
 ```
 
-confirm
+Confirm
 ```git
 cd test
 cat A.txt
@@ -76,11 +76,11 @@ git init # git start
 git add <file_name> or <.> # The . adds all files in the directory to the staging area.
 ```
 
-#### 3. files Commit
+#### 3. Files Commit
 ```git
 git commit -m "<Any Message>"
 ```
-confirm
+Confirm
 ```git
 git status
 ```
