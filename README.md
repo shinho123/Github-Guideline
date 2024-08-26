@@ -114,3 +114,17 @@ Error
 ![image](https://github.com/user-attachments/assets/483558e9-9034-4ed1-b2a8-6dbc9bc7a96c)
 
 * This error message occurs due to a synchronization issue between the local branch and the remote branch. Specifically, the push is rejected because there are changes in the remote repository that are not present in the local repository.
+
+Solve
+```git
+git pull origin master --rebase # Solve 1. rebase
+git pull origin master --no-rebase # Solve 2. merge
+```
+
+Confirm
+```git
+git push -u origin master
+```
+![image](https://github.com/user-attachments/assets/009fbc40-1d08-44c1-80ad-63cbdfa0ff4b)
+
+
