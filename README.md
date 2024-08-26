@@ -70,4 +70,4 @@ cd test
 cat A.txt
 ```
 
-#### 2. Connect to a Remote Repo ↔ Git Repo(SSH Copy)
+#### 2. Connect to a Remote Repo ↔ Git Repo(GIT My Repo → Code → HTTPS Copy) e.g. "https://github.com/<git_name>/<repo_name>.git"
