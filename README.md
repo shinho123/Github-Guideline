@@ -35,24 +35,26 @@
 
 ### Github Basic Commander
 
-* git init
-* git clone
-* git add
-* git commit
-* git push
-* git pull
-* git fetch
-* git merge
-* git rebase
-* git status
-* git log
-* git branch
-* git checkout
-* git tag
-* git remote
-* git reset
-* git rm
-* git mv
+* git init : 새로운 Git 저장소를 초기화한다. / 현재 디렉토리를 Git 저장소로 만든다.
+* git clone : 원격 저장소를 로컬로 복제한다. / 원격 저장소의 모든 파일과 히스토리를 가져온다.
+* git add : 변경 파일을 Staging Area에 추가한다. / 커밋할 파일을 선택한다.
+* git commit : Staging된 변경 사항을 커밋한다. / 커밋 메시지를 포함하여 변경 사항을 기록한다.
+* git push : 로컬 브랜치의 커밋을 원격 저장소에 푸시한다.
+* git pull : 원격 저장소의 변경 사항을 가져와 로컬 브랜치에 병합한다.
+* git fetch : 원격 저장소의 변경 사항을 가져오지만, 로컬 브랜치에 병합하지는 않는다.
+* git merge : 두 브랜치를 병합한다. 병합 커밋을 생성하여 두 브랜치의 변경 사항을 통합한다.
+* git rebase : 브랜치의 커밋을 다른 브랜치의 최신 커밋 위로 재배치 한다. / 커밋 히스토리를 선형으로 유지한다. 
+* git status : 현재 작업 디렉토리의 상태를 보여준다. / 추적된 파일, 추적되지 않은 파일, Staging된 파일 등을 확인할 수 있다.
+* git log : 커밋 히스토리를 보여준다. 각 커밋의 해시, 작성자, 작성 시간, 커밋 메시지 등을 확인할 수 있다.
+* git branch : 브랜치를 생성, 삭제, 나열한다. / 현재 브랜치를 확인할 수 있다.
+* git checkout : 브랜치를 전환하거나, 특정 커밋으로 작업 디렉토리를 업데이트한다.
+* git tag : 특정 커밋에 태그를 추가한다. 태그는 주로 릴리즈 버전을 표시하는 데 사용된다.
+* git remote : 원격 저장소를 관리한다. / 원격 저장소를 추가, 삭제, 나열할 수 있다.
+* git diff : 변경 사항을 비교한다. 작업 디렉토리와 Staging Area, 또는 두 커밋 간의 차이를 보여준다.
+* git stash : 현재 작업 중인 변경 사항을 임시로 저장하고, 작업 디렉토리를 깨끗하게 만든다. 나중에 다시 적용할 수 있다.
+* git reset : 커밋 히스토리를 재설정한다. 특정 커밋으로 되돌리거나, Staging Area을 초기화 할 수 있다.
+* git rm : 파일을 삭제하고, 삭제된 파일을 Staging Area에 추가한다. 
+* git mv : 파일을 이동하거나 이름을 변경하고, 변경 사항을 Staging Area에 추가한다.
 
 ### the step-by-step instructions for synchronizing data between Git and a local repository
 
