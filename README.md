@@ -92,6 +92,14 @@ git status
 
 ![image](https://github.com/user-attachments/assets/5c06f30a-2734-481f-84e1-eb91a0539b21)
 
+#### 4. Connect to a Remote Repo ↔ Git Repo(HTTPS Copy) e.g. "https://github.com/<git_name>/<repo_name>.git"
+```git
+git remote add origin https://github.com/shinho123/test01.git
+```
 
+Confirm
+```git
+git remote -v
+```
+![image](https://github.com/user-attachments/assets/6152d24a-6def-4066-8a97-ef6017b712d3)
 
-Connect to a Remote Repo ↔ Git Repo(HTTPS Copy) e.g. "https://github.com/<git_name>/<repo_name>.git"
