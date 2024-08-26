@@ -32,3 +32,24 @@
 * Default Branch
 * README File
 * .gitignore File
+
+### Github Basic Commander
+
+* git init
+* git clone
+* git add
+* git commit
+* git push
+* git pull
+* git fetch
+* git merge
+* git rebase
+* git status
+* git log
+* git branch
+* git checkout
+* git tag
+* git remote
+* git reset
+* git rm
+* git mv
