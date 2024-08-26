@@ -53,3 +53,13 @@
 * git reset
 * git rm
 * git mv
+
+### the step-by-step instructions for synchronizing data between Git and a local repository
+
+
+#### 1. Initialize a Local Repository
+```git
+mkdir test
+cd test
+echo "Hello. Welcome" > A.txt
+```
