@@ -69,7 +69,6 @@ Confirm
 cd test
 cat A.txt
 ```
-![image](https://github.com/user-attachments/assets/356e0b1a-7c31-4504-b84b-43987143a2a6)
 
 #### 2. Git start & Add files to the staging area
 ```git
