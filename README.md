@@ -56,7 +56,7 @@
 * git rm : 파일을 삭제하고, 삭제된 파일을 Staging Area에 추가한다. 
 * git mv : 파일을 이동하거나 이름을 변경하고, 변경 사항을 Staging Area에 추가한다.
 
-### the step-by-step instructions for synchronizing data between Git and a local repository
+### The step-by-step instructions for synchronizing data between Git and a local repository
 
 
 #### 1. Initialize a Local Repository → 'test'
