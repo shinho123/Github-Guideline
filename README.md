@@ -103,10 +103,25 @@ Confirm
 git remote -v
 ```
 
+Delete
+```git
+git remote remove master(main)
+```
+
 #### 5. Data Push
 ```git
-git push -u origin master
+git push -u origin master(main)
 ```
+
+Git repo modify
+```git
+git branch -m <You want branch name(e.g. main)>
+```
+
+```git
+git branch -m <current branch name> <You want branch name>
+```
+
 
 Error
 
@@ -122,7 +137,7 @@ git pull origin master --no-rebase # Solve 2. merge
 
 Confirm
 ```git
-git push -u origin master
+git push -u origin master(main)
 ```
 ![image](https://github.com/user-attachments/assets/009fbc40-1d08-44c1-80ad-63cbdfa0ff4b)
 
