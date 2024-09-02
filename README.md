@@ -121,6 +121,7 @@ git branch -m <You want branch name(e.g. main)>
 ```git
 git branch -m <current branch name> <You want branch name>
 ```
+**Originally, Git repositories had the default branch set to master upon creation. However, recently, the default branch has been changed to main. This change was made to avoid the master-slave terminology and to adopt more inclusive language influenced by the Black Lives Matter movement. If you want to store data from your local repository in the initially created main branch, you should rename the master branch to main.**
 
 
 Error
